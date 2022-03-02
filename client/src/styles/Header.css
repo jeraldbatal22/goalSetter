@@ -1,0 +1,39 @@
+header {
+  padding: 0px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  padding: 20px 0px;
+}
+nav h1 {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
+}
+
+nav ul li a, nav ul li {
+  text-decoration: none;
+  color: #000;
+  display: inline-flex;
+  gap: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+nav ul .logoutButton {
+  background: #000;
+  color: #ffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}

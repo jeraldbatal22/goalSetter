@@ -1,0 +1,31 @@
+.goals_list_section {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.goals_list_section div {
+  background-color: #e9e9e9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:6px ;
+  padding-right:30px ;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.goals_list_section div p {
+  font-size: 15px;
+}
+
+.goals_list_section div i {
+  position: absolute;
+  right: 0;
+  margin: 10px 5px;
+  top: 0;
+  cursor: pointer;
+}
