@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { get, USER } from './localStorage'
 
-const url = 'http://localhost:5000/api'
+const url = 'https://go-setter-api.herokuapp.com/api'
 export const getRequest = (endpoint, config = false) => {
   let header = {}
   if (config) {
